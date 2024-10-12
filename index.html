@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="menu">
+        <button id="play">Játék</button>
+        <button id="story">Sztori + Játék</button>
+        <p id="promo">Powered By: PHPTeam</p>
+    </div>
+    <div id="end">
+        <h2>Elfogytak a lépéseid!</h2>
+        <p id="lastPoint"></p>
+        <button id="newGame">Új játek a páján</button>
+        <button id="newGameNewMap">Új játek új páján</button>
+    </div>
+    <div id="questBox">
+        <h3 id="timer"></h3>
+        <h1 id="quest"></h1>
+        <button id="questb1" onclick="IsCorrectAwser('1')"></button>
+        <button id="questb2" onclick="IsCorrectAwser('2')"></button>
+    </div>
+    <h2 id="response"></h2>
+    <div style="display: grid; place-items: center; height: 100vh;">
+        <canvas id="canvas"></canvas>
+    </div>
+    
+    <script src="quests.js"></script>
+    <script src="script.js"></script>
+    
+</body>
+</html>

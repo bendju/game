@@ -1,0 +1,70 @@
+#canvas {
+    border: 1px solid black;
+    text-align: center;
+    margin: 0 auto;
+    
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+#menu{
+    position: absolute;
+    border: 1px solid black;
+    width: 300px;
+    height: 300px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    border-radius: 20px;
+}
+#play, #story, #newGame, #newGameNewMap, #questb1, #questb2 {
+    border: none;
+    background-color: green;
+    border-radius: 10px;
+    padding: 10px 20px;
+    color: white;
+    font-size: xx-large;
+    margin-top: 40px;
+    cursor: pointer;
+}
+#promo {
+    margin-top: 20px;
+}
+body {
+    background-color: #74a872;
+}
+#end {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    background-color: #74a872;
+    border-radius: 10px;
+    padding: 10px;
+    display: none;
+}
+#questBox {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+    padding: 20px;
+    display: none;
+    text-align: center;
+    background-color: #74a872;
+}
+#response {
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #74a872;
+    padding: 40px 20px;
+    border-radius: 10px;
+    display: none;
+    cursor: pointer;
+}
